@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Register</title> 
+<link href="stylesheet.css" rel="stylesheet">
+</head> 
+<body> 
+<CENTER><h1>Register</h1></CENTER>
+<form method="get">
+    <label for="name">Name (4 to 8 characters):</label>
+    <input type="text">
+    <br>
+    <label for="name">Length of time you've been a fan:</label>
+    <input type="text">
+    <br>
+    <label for="name">Password:</label>
+    <input type="password">
+    <br>
+    
+
+    <fieldset>
+        <legend>Select the type of fan you are</legend>
+        <p>
+           <label>Be honest</label>
+           <select id = "Type of fan">
+             <option value = "Obessive">Obessive</option>
+             <option value = "Casual">Casual</option>
+             <option value = "Hipster">Hipster</option>
+             <option value = "Has-been">Has-been</option>
+           </select>
+        </p>
+     </fieldset>
+     <br>
+
+     <fieldset class='div1'>
+     <legend>Favorite food</legend>
+        <p>
+           <select id = "Type of food">
+             <option value = "Pizza">Pizza</option>
+             <option value = "Curry">Curry</option>
+             <option value = "Soup">Soup</option>
+             <option value = "Pasta">Pasta</option>
+           </select>
+        </p>
+     </fieldset>
+
+     <p>Do you want to receive updates:</p>
+
+<div>
+  <input type="checkbox" id="SMS" name="SMS" checked>
+  <label for="SMS">Scales</label>
+</div>
+
+<div >
+  <input type="checkbox" id="email" name="email" checked>
+  <label for="Email">Email</label>
+</div>
+
+     <input type="submit">
+
+</form>
+
+
+</body> 
+</html>

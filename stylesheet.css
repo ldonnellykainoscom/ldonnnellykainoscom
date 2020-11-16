@@ -1,0 +1,26 @@
+body {
+   
+    background: url("https://image.winudf.com/v2/image1/Y29tLnFhbmplcnVtYmkud2hpdGUud2hpdGViYWNrZ3JvdW5kX3NjcmVlbl8wXzE1NDE5NzAyMDlfMDQ0/screen-0.jpg?fakeurl=1&type=.jpg");
+    
+    family: 'Oswald', sans-serif;font-family: 'Montserrat', sans-serif;
+    margin: 20pt;
+
+  }
+
+  label {
+
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+
+}
+
+.div1 {
+    background-color: lightgray;
+    font: 1rem 'Helvetica', sans-serif;
+
+}
+
+td:nth-child(1) {
+    background: lightgray;
+}
+
